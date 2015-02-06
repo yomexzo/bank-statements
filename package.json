@@ -25,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/yomexzo/bank-statements/issues"
   },
-  "homepage": "https://github.com/yomexzo/bank-statements"
+  "homepage": "https://github.com/yomexzo/bank-statements",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  }
 }
