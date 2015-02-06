@@ -1,0 +1,29 @@
+{
+  "name": "bank-statements",
+  "version": "1.0.0",
+  "description": "Javascript tools that crunches and filters transactions in bank statements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yomexzo/bank-statements.git"
+  },
+  "keywords": [
+    "bank",
+    "statement",
+    "statements",
+    "parser",
+    "parse",
+    "bank-parser",
+    "bank-statement",
+    "bank-statements"
+  ],
+  "author": "Abayomi Osamiluyi <yomexzo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yomexzo/bank-statements/issues"
+  },
+  "homepage": "https://github.com/yomexzo/bank-statements"
+}
