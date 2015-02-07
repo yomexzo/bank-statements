@@ -4,7 +4,7 @@
   "description": "Javascript tools that crunches and filters transactions in bank statements",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,8 @@
   "homepage": "https://github.com/yomexzo/bank-statements",
   "devDependencies": {
     "chai": "^1.10.0",
-    "mocha": "^2.1.0"
+    "chai-things": "^0.2.0",
+    "mocha": "^2.1.0",
+    "node-fixtures": "0.0.1"
   }
 }
