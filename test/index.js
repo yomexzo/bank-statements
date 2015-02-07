@@ -48,22 +48,37 @@ describe('#banks: ', function() {
 			fixtures[bank.key]["invalid-statements"].should.all.have.property("fd");
 		});
 
-		it(bank.name + ' - successfully parses valid statement(s)', function() {
-			var parsedData = bank.parse(fixtures[bank.key]["valid-statements"]);
-			expect(parsedData, "parsedData to be an array").to.be.an("array");
-			expect(parsedData.length, "parsedData length to be at least 1").to.be.at.least(1);
+		it(bank.name + ' - reader correctly reads valid statements', function() {
+			app.readFiles(fixtures[bank.key]["valid-statements"]).then(function(records){
+				expect(records, "records to be an array").to.be.an("array");
+				expect(records.length, "records.length to be equal valid-statements.length").to.be.equal(fixtures[bank.key]["valid-statements"].length);
+				
 
-			parsedData.should.all.have.property("bank");
-			parsedData.should.all.have.property("date");
-			parsedData.should.all.have.property("amount");
-			parsedData.should.all.have.property("remarks");
-			parsedData.should.all.have.property("flow");
+
+				it(bank.name + ' - successfully parses read records', function() {
+					var parsedData = bank.parse(records);
+					expect(parsedData, "parsedData to be an array").to.be.an("array");
+					expect(parsedData.length, "parsedData length to be at least 1").to.be.at.least(1);
+
+					parsedData.should.all.have.property("bank");
+					parsedData.should.all.have.property("date");
+					parsedData.should.all.have.property("amount");
+					parsedData.should.all.have.property("remarks");
+					parsedData.should.all.have.property("flow");
+				});
+			}).catch(function(err){
+				expect(err, "err to be equal null").to.be.equal(null);
+			});
 		});
 
-		it(bank.name + ' - returns [] for empty or invalid statement(s)', function() {
-			var parsedData = bank.parse(fixtures[bank.key]["invalid-statements"]);
-			expect(parsedData, "parsedData to be an array").to.be.an("array");
-			expect(parsedData.length, "parsedData length to be at equal 0").to.be.at.equal(0);
+		it(bank.name + ' - reader throws error with invalid statements', function() {
+			if(fixtures[bank.key]["invalid-statements"].length == 0) return;
+
+			app.readFiles(fixtures[bank.key]["invalid-statements"]).then(function(records){
+				expect(records, "records to be equal null").to.be.equal(null);
+			}).catch(function(err){
+				expect(err, "err to not be equal null").to.not.be.equal(null);
+			});
 		});
 	})
 });
