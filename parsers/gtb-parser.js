@@ -1,3 +1,3 @@
-module.exports = function(){
-	return [];
+module.exports = function(files){
+	return files;
 }
