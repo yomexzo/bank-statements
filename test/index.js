@@ -28,4 +28,23 @@ describe('#banks: ', function() {
 
 		expect(enabled).to.be.at.least(1);
 	});
+
+	(app.banks || []).forEach(function(bank){
+		if(!bank.enabled) return;
+
+		it(bank.name + ' - has valid fixtures', function() {
+			fixtures.should.have.property(bank.key);
+
+			fixtures[bank.key].should.have.property("valid-statements");
+			fixtures[bank.key].should.have.property("invalid-statements");
+			
+			expect(fixtures[bank.key]["valid-statements"]).to.be.an("array");
+			expect(fixtures[bank.key]["invalid-statements"]).to.be.an("array");
+
+			expect(fixtures[bank.key]["valid-statements"]).to.be.at.least(1);
+
+			fixtures[bank.key]["valid-statements"].should.all.have.property("fd");
+			fixtures[bank.key]["invalid-statements"].should.all.have.property("fd");
+		});
+	})
 });

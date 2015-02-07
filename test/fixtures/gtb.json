@@ -1,0 +1,14 @@
+{
+	"valid-statements": [
+		{
+			"fd": "gtb.xls",
+			"size": 14847,
+			"type": "application/vnd.ms-excel",
+			"filename": "gtb.xls",
+			"status": "bufferingOrWriting",
+			"field": "statements"
+		}
+	],
+	"invalid-statements": [
+	]
+}

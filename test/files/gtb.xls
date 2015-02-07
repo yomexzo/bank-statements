@@ -1,0 +1,425 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title> Untitled Page </title>
+	<meta name="generator" content="LibreOffice 4.2.8.2 (MacOSX)">
+	<meta name="created" content="0;0">
+	<meta name="changed" content="20150207;45720052351000">
+</head>
+<body lang="en-GB" dir="ltr" style="background: transparent">
+<form name="form1" action="Usercontrols/AccountStmtExport.aspx" method="post">
+	<input type="hidden" name="__VIEWSTATE">
+</form><a name="__VIEWSTATE"></a>
+<table width="100%" cellpadding="3" cellspacing="2">
+	<tr>
+		<td colspan="3" style="border: none; padding: 0cm">
+			<table width="100%" cellpadding="3" cellspacing="2">
+				<tr>
+					<td colspan="3" width="60%" style="border: none; padding: 0cm">
+						<p align="center"><a name="lblAcctName"></a><font color="#008000"><font face="Verdana"><font size="3" style="font-size: 12pt"><b>GUARANTY
+						TRUST BANK PLC<br><br>CUSTOMER STATEMENT<br><br><font color="#000000">OSAMILUYI
+						ABAYOMI</font></b></font></font></font></p>
+					</td>
+					<td width="40%" style="border: none; padding: 0cm">
+						<p align="left"><a name="Image1"></a><img src="data:" name="Image1" align="bottom" width="117" height="59" border="0"></p>
+					</td>
+				</tr>
+			</table>
+			<table width="500" cellpadding="3" cellspacing="2">
+				<tr>
+					<td colspan="2" style="border: none; padding: 0cm">
+						<p><a name="lblDate"></a>Print Date: 07/Feb/2015</p>
+					</td>
+				</tr>
+				<tr>
+					<td width="25%" style="border: none; padding: 0cm"></td>
+					<td style="border: none; padding: 0cm"></td>
+				</tr>
+				<tr>
+					<td colspan="2" style="border: none; padding: 0cm">
+						<p>Address: Lagos, Nigeria</p>
+					</td>
+				</tr>
+				<tr>
+					<td width="25%" style="border: none; padding: 0cm"></td>
+					<td style="border: none; padding: 0cm"></td>
+				</tr>
+				<tr>
+					<td colspan="2" style="border: none; padding: 0cm">
+						<p>Account No: 7839847989 - (421/******/*/**/*)</p>
+					</td>
+				</tr>
+				<tr>
+					<td width="25%" style="border: none; padding: 0cm"></td>
+					<td style="border: none; padding: 0cm"></td>
+				</tr>
+				<tr>
+					<td colspan="2" width="25%" style="border: none; padding: 0cm">
+						<p><a name="lblCurrency"></a>Currency:Naira 
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td width="25%" style="border: none; padding: 0cm">
+						<p>&nbsp;</p>
+					</td>
+					<td style="border: none; padding: 0cm">
+						<p>&nbsp;</p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" style="border: none; padding: 0cm">
+						<p><a name="lblPeriod1"></a><a name="lblPeriod2"></a>Period:
+						23/Jan/2015 To &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+						07/Feb/2015</p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" style="border: none; padding: 0cm"></td>
+				</tr>
+				<tr>
+					<td colspan="2" style="border: none; padding: 0cm">
+						<p><a name="lblOpenBal"></a>Opening Balance: 79,208.08</p>
+					</td>
+				</tr>
+			</table>
+			<p style="margin-bottom: 0cm"><br>
+			</p>
+			<table width="849" cellpadding="3" cellspacing="2">
+				<tr>
+					<td colspan="3" style="border: none; padding: 0cm"><a name="dgtrans"></a>
+						<table cellpadding="3" cellspacing="0">
+							<tr valign="top">
+								<td style="border: none; padding: 0cm">
+									<p>Trans Date</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>Reference</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>Value Date</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right">Debit</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right">Credit</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right" style="font-variant: normal; font-style: normal; text-decoration: none">
+									<b>Balance</b></p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>Remarks</p>
+								</td>
+							</tr>
+							<tr bgcolor="#ffffff">
+								<td style="border: none; padding: 0cm">
+									<p>26-Jan-2015</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>0</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>26-Jan-2015</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right">34,000.00</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right">&nbsp;</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right" style="font-variant: normal; font-style: normal; font-weight: normal; text-decoration: none">
+									45,208.08</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>TRANSFER BETWEEN CUSTOMERS via Internet Banking Refund
+									from OSAMILUYI ABAYOMI OLUWASEUN to Someone Else</p>
+								</td>
+							</tr>
+							<tr bgcolor="#ffffff">
+								<td style="border: none; padding: 0cm">
+									<p>26-Jan-2015</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>0</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>26-Jan-2015</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right">2,000.00</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right">&nbsp;</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right" style="font-variant: normal; font-style: normal; font-weight: normal; text-decoration: none">
+									43,208.08</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>Airtime Purchase USSD-101CT0000000000033184761_USSD</p>
+								</td>
+							</tr>
+							<tr bgcolor="#ffffff">
+								<td style="border: none; padding: 0cm">
+									<p>26-Jan-2015</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>0</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>26-Jan-2015</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right">1,000.00</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right">&nbsp;</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right" style="font-variant: normal; font-style: normal; font-weight: normal; text-decoration: none">
+									42,208.08</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>Airtime Purchase USSD-101CT0000000000033184887_USSD</p>
+								</td>
+							</tr>
+							<tr bgcolor="#ffffff">
+								<td style="border: none; padding: 0cm">
+									<p>26-Jan-2015</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>9999035399</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>26-Jan-2015</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right">972.50</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right">&nbsp;</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right" style="font-variant: normal; font-style: normal; font-weight: normal; text-decoration: none">
+									41,235.58</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>POINT OF SALE PURCHASE TRANSACTION MI MIGHTYTEXT PRO
+									4157637999 CAUS- 4.99 USD 
+									</p>
+								</td>
+							</tr>
+							<tr bgcolor="#ffffff">
+								<td style="border: none; padding: 0cm">
+									<p>28-Jan-2015</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>0</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>28-Jan-2015</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right">&nbsp;</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right">5,000.00</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right" style="font-variant: normal; font-style: normal; font-weight: normal; text-decoration: none">
+									46,235.58</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>TRANSFER BETWEEN CUSTOMERS via Internet Banking from
+									SOMEONE ELSE to OSAMILUYI ABAYOMI OLUWASEUN</p>
+								</td>
+							</tr>
+							<tr bgcolor="#ffffff">
+								<td style="border: none; padding: 0cm">
+									<p>28-Jan-2015</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>0</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>28-Jan-2015</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right">11,500.00</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right">&nbsp;</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right" style="font-variant: normal; font-style: normal; font-weight: normal; text-decoration: none">
+									34,735.58</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>TRANSFER BETWEEN CUSTOMERS MBANKING - ANY Account
+									Transfer from OSAMILUYI ABAYOMI OLUWASEUN to SOMEONE ELSE</p>
+								</td>
+							</tr>
+							<tr bgcolor="#ffffff">
+								<td style="border: none; padding: 0cm">
+									<p>28-Jan-2015</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>0</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>28-Jan-2015</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right">20,000.00</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right">&nbsp;</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right" style="font-variant: normal; font-style: normal; font-weight: normal; text-decoration: none">
+									14,735.58</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>TRANSFER BETWEEN CUSTOMERS MBANKING - ANY Account
+									Transfer from OSAMILUYI ABAYOMI OLUWASEUN to SOMEONE ELSE</p>
+								</td>
+							</tr>
+							<tr bgcolor="#ffffff">
+								<td style="border: none; padding: 0cm">
+									<p>29-Jan-2015</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>9999002677</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>29-Jan-2015</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right">2,109.20</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right">&nbsp;</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right" style="font-variant: normal; font-style: normal; font-weight: normal; text-decoration: none">
+									12,626.38</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>POINT OF SALE PURCHASE TRANSACTION SKYPE.COM LUXEMBOURG
+									LU- 
+									</p>
+								</td>
+							</tr>
+							<tr bgcolor="#ffffff">
+								<td style="border: none; padding: 0cm">
+									<p>29-Jan-2015</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>0</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>29-Jan-2015</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right">5,000.00</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right">&nbsp;</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right" style="font-variant: normal; font-style: normal; font-weight: normal; text-decoration: none">
+									7,626.38</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>TRANSFER BETWEEN CUSTOMERS MBANKING - ANY Account
+									Transfer from OSAMILUYI ABAYOMI SOMEONE ELSE</p>
+								</td>
+							</tr>
+							<tr bgcolor="#ffffff">
+								<td style="border: none; padding: 0cm">
+									<p>04-Feb-2015</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>9999058916</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>03-Feb-2015</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right">4,349.92</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right">&nbsp;</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p align="right" style="font-variant: normal; font-style: normal; font-weight: normal; text-decoration: none">
+									3,276.46</p>
+								</td>
+								<td style="border: none; padding: 0cm">
+									<p>POINT OF SALE PURCHASE TRANSACTION Amazon web services
+									aws.amazon.coWAUS- 22.25 USD 
+									</p>
+								</td>
+							</tr>
+						</table>
+						<p><br><br>
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" style="border: none; padding: 0cm"></td>
+				</tr>
+				<tr>
+					<td colspan="3" style="border: none; padding: 0cm">
+						<p><font color="#008000"><font face="Verdana"><font size="2" style="font-size: 10pt"><b>PLEASE
+						ADDRESS ALL ENQUIRIES TO</b></font></font></font></p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" style="border: none; padding: 0cm">
+						<p><font color="#008000"><font face="Verdana"><font size="2" style="font-size: 10pt"><b>GUARANTY
+						TRUST BANK PLC</b></font></font></font></p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" style="border: none; padding: 0cm">
+						<p><font color="#008000"><font face="Verdana"><font size="2" style="font-size: 10pt"><b>SYSTEMS
+						AND CONTROL GROUP</b></font></font></font></p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" style="border: none; padding: 0cm">
+						<p><font color="#008000"><font face="Verdana"><font size="2" style="font-size: 10pt"><b>178,
+						AWOLOWO ROAD, IKOYI</b></font></font></font></p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" style="border: none; padding: 0cm">
+						<p><font color="#008000"><font face="Verdana"><font size="2" style="font-size: 10pt"><b>P.O.BOX
+						75455, VICTORIA ISLAND, LAGOS, NIGERIA</b></font></font></font></p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" style="border: none; padding: 0cm">
+						<p><font color="#008000"><font face="Verdana"><font size="2" style="font-size: 10pt"><b>PHONE&nbsp;
+						01-2694276&nbsp; FAX&nbsp; 01-2694276</b></font></font></font></p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" style="border: none; padding: 0cm">
+						<p><font color="#008000"><font face="Verdana"><font size="2" style="font-size: 10pt"><b>OR
+						THE CUSTOMER INFORMATION UNIT OF YOUR LOCAL BRANCH</b></font></font></font></p>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<p><br><br>
+</p>
+</body>
+</html>
